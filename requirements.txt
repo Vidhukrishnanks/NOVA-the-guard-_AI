@@ -1,0 +1,12 @@
+# URLGuard AI - tested with Python 3.11-3.13 on Windows/Linux.
+Flask>=3.0,<4
+Flask-WTF>=1.2,<2
+scikit-learn>=1.4,<2
+pandas>=2.1,<4
+numpy>=1.26,<3
+joblib>=1.3
+reportlab>=4.0,<6
+requests>=2.31,<3
+python-dotenv>=1.0,<2
+pytest>=8.0
+gunicorn>=22.0  # Linux web server for hosting (Render)

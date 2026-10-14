@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets and private data - NEVER commit
+.env
+instance/
+*.sqlite3
+reports/
+
+# Large datasets and trained models (re-create with train_model.py)
+data/malicious_phish.csv
+data/*.zip
+models/*.joblib
